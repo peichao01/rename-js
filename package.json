@@ -1,6 +1,6 @@
 {
   "name": "rename-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "rename files in the command line, use the javascript RegExp to rename files.",
   "main": "rename.js",
   "scripts": {
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/peichao01/rename-js/issues"
   },
-  "homepage": "https://github.com/peichao01/rename-js"
+  "homepage": "https://github.com/peichao01/rename-js",
+  "dependencies": {
+    "walk": "^2.3.4"
+  }
 }
