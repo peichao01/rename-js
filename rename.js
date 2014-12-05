@@ -2,8 +2,16 @@ var walk = require('walk')
 var fs = require('fs')
 var _path = require('path')
 
-var regFrom = new RegExp(process.argv[2])
+var from = process.argv[2]
 var to = process.argv[3]
+
+if(from === undefined || to === undefined){
+  console.log('[ERROR] arguments missed. see [https://github.com/peichao01/rename-js] for more infomation.')
+  return
+}
+
+var regFrom = new RegExp(from)
+
 
 console.log('files need match RegExp: ' + regFrom)
 

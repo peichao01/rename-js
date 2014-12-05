@@ -1,3 +1,4 @@
 #!/usr/bin/env node
 
-require('../rename').cli.run(process.argv);
+//require('../rename').cli.run(process.argv);
+require('../rename')
