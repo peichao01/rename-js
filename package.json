@@ -1,0 +1,26 @@
+{
+  "name": "rename-js",
+  "version": "1.0.0",
+  "description": "rename files in the command line, use the javascript RegExp to rename files.",
+  "main": "rename.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:peichao01/rename-js.git"
+  },
+  "keywords": [
+    "rename",
+    "javascript",
+    "shell",
+    "cmd",
+    "rename-js"
+  ],
+  "author": "peichao <380692952@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peichao01/rename-js/issues"
+  },
+  "homepage": "https://github.com/peichao01/rename-js"
+}
