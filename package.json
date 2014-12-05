@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "rename": "./bin/rename"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:peichao01/rename-js.git"
