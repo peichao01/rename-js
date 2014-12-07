@@ -1,6 +1,6 @@
 {
   "name": "rename-js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "rename files in the command line, use the javascript RegExp to rename files.",
   "main": "rename.js",
   "scripts": {
@@ -15,6 +15,8 @@
   },
   "keywords": [
     "rename",
+	"rename files",
+	"file",
     "javascript",
     "shell",
     "cmd",
