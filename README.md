@@ -74,8 +74,8 @@ module.exports = function(filename, type){
 then run commands:
 
 ```shell
-$cd /path/to/public
-$rename -f ./processor
+$ cd /path/to/public
+$ rename -f ./processor
 ```
 last got:
 
